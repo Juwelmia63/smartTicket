@@ -1,11 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Ticket</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
+
 <body>
-    
+
+    <header class="container mx-auto">
+
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+
+
+                    </div>
+                    <a class="btn btn-ghost text-3xl font-bold">D-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl">
+                        <li><a>Home</a></li>
+
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn font-bold text-xl">BUS <img src="images/bus-icon.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section>
+            <div
+                class="rounded-3xl bg-[url(./images/banner.png)] bg-cover bg-center bg-no-repeat] h-[700px] flex flex-col lg:justify-start justify-center">
+
+                <div class="flex flex-col gap-5 justify-center items-center py-10 mt-28">
+                    <h1 class="lg:text-[64px] text-[30px] text-white font-extrabold text-center">End-to-End Travel with
+                        <br><span class="text-white">P Paribahan</span>
+                    </h1>
+
+                    <p class="text-white text-center font-normal lg:text-lg lg:w-[600px] w-[350px]">Yes, you can run
+                        In Dipjol Enterprises vehicle you can get all types of modern services of this era. They are
+                        thinking about adding wifi service in the next model buses.</p>
+
+                    <button class="lg:mt-5 mt-3 px-6 py-4 bg-[#1DD100] rounded-lg">
+                        <a class="text-xl font-bold" href="#BuyTicket">Buy Tickets</a>
+                    </button>
+                </div>
+
+        </section>
+
+
+    </header>
+
+    <main class="container mx-auto">
+
+        <!-- best offers section  -->
+
+
+        <section class="lg:my-32 mt-20 px-5 md:px-0 lg:px-20 space-y-14">
+            <div>
+                <h1 class="lg:text-5xl text-3xl font-bold text-center">Best offers for you</h1>
+            </div>
+
+            <div class="lg:flex justify-center space-y-5 lg:space-y-0 gap-5">
+
+                <div class="lg:flex justify-between items-center gap-8 bg-[#FFBF0F] rounded-3xl ">
+                    <div class="space-y-3 lg:p-7 lg:py-10 p-5 text-center lg:text-start">
+                        <h1 class="lg:text-4xl text-3xl font-black">15% OFF</h1>
+                        <p class="lg:text-xl font-semibold">on your next purchase</p>
+                        <p class="lg:text-lg font-medium text-[#03071280]">use by January 2024</p>
+                    </div>
+
+                    <div class=""> <img src="images/cupon-devider.png" alt=""></div>
+
+                    <div class="space-y-2 text-center lg:p-7 lg:py-5 p-5">
+                        <h1 class="lg:text-3xl text-3xlxl font-semibold">NEW15</h1>
+                        <p class="lg:text-xl font-medium">Coupon Code</p>
+                    </div>
+
+
+                </div>
+
+
+                <div class="lg:flex justify-between items-center gap-8 bg-[#F78C9C] rounded-3xl">
+                    <div class="space-y-3 lg:p-7 lg:py-5 p-5 text-center lg:text-start">
+                        <h1 class="lg:text-4xl text-3xl font-extrabold">15% OFF</h1>
+                        <p class="lg:text-lg font-bold">on your next purchase</p>
+                        <p class="lg:text-lg text-[#03071280]">use by January 2024</p>
+                    </div>
+
+                    <div class=""> <img src="images/cupon-devider.png" alt=""></div>
+
+                    <div class="space-y-2 text-center lg:py-5 lg:p-7 p-5">
+                        <h1 class="lg:text-3xl text-xl font-bold">Couple 20</h1>
+                        <p class="lg:text-lg">Coupon Code</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="flex justify-center items-center">
+                <button class="mt-5 px-7 py-5 text-[#1DD100] border-[#1DD100] border-2 rounded-lg"><a
+                        class="text-xl font-bold" href="#">See All Offer</a></button>
+            </div>
+        </section>
+
+
+
+        <!-- dipjol poribahan -->
+
+
+        <section id="BuyTicket"
+            class="bg-[#36c5c5] lg:my-32 mt-20 px-5 md:px-0 lg:px-20 rounded-[70px]  py-10">
+
+            <div class="text-center my-10 space-y-7">
+                <h1 class="lg:text-5xl text-3xl font-bold text-center text-white">P.H Paribahan</h1>
+                <p class="lg:px-52 lg:text-lg font-normal text-[#03071299] text-white">Yes, you can run
+                    In Dipjol Enterprises vehicle you can get all types of modern services of this era. They are
+                    thinking about adding wifi service in the next model buses.</p>
+            </div>
+
+
+            <div class="bg-[#fff] lg:flex gap-10 justify-between  rounded-2xl">
+
+
+                <div class="flex flex-col gap-5 flex-1 p-5">
+                    <div class="lg:flex justify-between items-center lg:px-0 px-3">
+
+                        <div class="flex flex-col lg:flex-row gap-2 justify-center items-center text-center">
+                            <div>
+                                <img src="./images/bus-logo.png" alt="">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h1 class="text-black text-3xl font-bold">Greenline Paribahan</h1>
+                                <p class="text-[#03071299] font-normal text-lg">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-center items-center gap-2 p-4 bg-[#1DD10026] rounded-xl mt-5 lg:mt-0 font-sans">
+                            <img src="./images/seat-green.png" alt="">
+                            <p class="text-[#1DD100] font-medium text-lg">40 Seats left</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="bg-[#F7F8F8] p-7 flex flex-col gap-5 rounded-lg">
+                        <div class="flex justify-between">
+                            <p class="text-lg font-semibold text-[#03071299]">Route</p>
+                            <p class="font-semibold text-lg">Dhaka - Sylhet</p>
+                        </div>
+                        <hr class="border-dashed border-2">
+                        <div class="flex justify-between">
+                            <p class="text-lg font-semibold text-[#03071299]">Departure Time</p>
+                            <p class="font-semibold text-lg">9:00 PM</p>
+                        </div>
+                        <hr class="border-dashed border-2">
+                        <div class="lg:flex justify-between gap-3 space-y-2 lg:space-y-0 font-sans">
+                            <p class="p-5 text-[#030712CC] bg-[#0307120D] font-medium text-sm rounded-lg">Boarding Point
+                                -
+                                Laxmipur</p>
+                            <p class="p-5 text-[#030712CC] bg-[#0307120D] font-medium text-sm rounded-lg">Dropping Point
+                                -
+                                Bogura</p>
+                            <p class="p-5 text-[#030712CC] bg-[#0307120D] font-medium text-sm rounded-lg">Est. Time - 11
+                                Hour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=""><img src="images/info-devider.png" alt=""></div>
+
+                <div class="flex flex-col justify-center items-center gap-5 p-5 lg:p-14">
+                    <img src="./images/fare.png" alt="">
+                    <h1 class="text-black text-3xl font-bold">550 Taka</h1>
+                    <p class="text-2xl font-semibold text-[#03071299]">Per Seat</p>
+                </div>
+
+
+            </div>
+
+
+
+            
+
+
+
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
